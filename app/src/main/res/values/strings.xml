@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CNAP Capture</string>
+
+    <!-- Accessibility service -->
+    <string name="accessibility_service_label">CNAP Name Capture</string>
+    <string name="accessibility_service_description">Reads the government-verified CNAP caller name displayed on screen during an incoming call and saves it locally so you can review it later. No data leaves your device.</string>
+
+    <!-- Main screen -->
+    <string name="title_call_log">Call Name History</string>
+    <string name="empty_log_message">No CNAP names captured yet.\n\nWhen you receive an incoming call with a government-verified CNAP name, it will appear here.</string>
+    <string name="search_hint">Search by name or number…</string>
+    <string name="menu_clear_all">Clear All</string>
+    <string name="menu_enable_accessibility">Enable Accessibility Service</string>
+
+    <!-- List item -->
+    <string name="label_phone_number">Number</string>
+    <string name="label_captured_name">CNAP Name</string>
+    <string name="label_timestamp">Captured at</string>
+    <string name="label_source">Source</string>
+    <string name="add_to_contacts">Add to Contacts</string>
+    <string name="repeat_caller_badge">Repeat Caller</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_id">cnap_capture_channel</string>
+    <string name="notification_channel_name">CNAP Capture</string>
+    <string name="notification_channel_desc">Keeps CNAP name capture active during a call</string>
+    <string name="notification_title">Capturing CNAP name…</string>
+    <string name="notification_text">Listening for caller name during active call</string>
+
+    <!-- Confirm delete -->
+    <string name="confirm_clear_title">Clear All Entries?</string>
+    <string name="confirm_clear_message">All captured CNAP names will be permanently deleted from this device.</string>
+    <string name="action_confirm">Delete</string>
+    <string name="action_cancel">Cancel</string>
+
+    <!-- Snack bar -->
+    <string name="snack_entry_deleted">Entry deleted</string>
+    <string name="snack_undo">Undo</string>
+    <string name="snack_contact_added">Contact saved</string>
+
+    <!-- Permission rationale -->
+    <string name="permission_rationale_phone">Phone-state permission is needed to detect incoming calls and capture the caller\'s number.</string>
+    <string name="permission_rationale_call_log">Call-log permission lets the app cross-reference missed captures with your call history.</string>
+    <string name="permission_rationale_contacts">Contacts permission is needed for the \'Add to Contacts\' feature.</string>
+    <string name="permission_go_to_settings">Go to Settings</string>
+</resources>
